@@ -1,0 +1,52 @@
+.dropdown-toggle{
+    cursor: pointer;
+
+}
+ .navbar-collapse{
+    flex-grow: 0 !important;
+
+}
+.navbar-brand{
+    margin: 5px;
+    padding-top: 0;
+    color: white  !important;
+}
+.d-none{
+    display: none !important;
+}
+.navbar{
+    background-color:  rgb(57, 99, 190);
+}
+.nav-link{
+    color: white;
+}
+.search{
+    cursor: pointer;
+}
+.search:hover .fas{
+    color:white;
+    transform: scale(1.5);
+}
+select{
+    background-color:  rgb(57, 99, 190);
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.fas{
+    color:rgb(57, 99, 190);
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: block  !important;
+        }
+    select{
+     
+       margin: 5px 40px 5px 5px;
+       color: white;
+       
+    }
+    .navbar{
+        background-image: linear-gradient(to left, rgb(245, 206, 206), rgb(57, 99, 190));
+    }
+}
